@@ -1,0 +1,71 @@
+body {
+    font-family: "Public Sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div img{
+    width: 45px;
+    height: 42px;
+}
+
+div h2{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23.5px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.63px;
+    margin-left: 30px;
+}
+
+li a{
+    color: black;
+}
+
+li a p{
+    color: white;
+    margin-top: 10px;
+}
+
+.cadastre-se{
+    width: 127px;
+    height: 39px;
+    background-color: #5bc241;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu:hover{
+    background-color: #5bc241;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33px;
+    width: 63px;
+}
+
+li a:hover{
+    color: white;
+}
