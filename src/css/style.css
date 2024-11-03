@@ -42,6 +42,7 @@ li{
 
 li a{
     color: black;
+    transition: 0.3s ease-in-out;
 }
 
 li a p{
@@ -68,4 +69,34 @@ li a p{
 
 li a:hover{
     color: white;
+}
+
+@media (max-width: 481px) {
+    body{
+        background-color: dimgray;
+    }
+    
+    div{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    div img{
+        width: 27px;
+        height: 25px;
+    }
+
+    ul{
+        flex-direction: column;
+        flex: 0 1 426px;
+        margin-top: 50px;
+    }
+
+    li{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
 }
